@@ -27,18 +27,18 @@
                     <span></span>
                </div>
                <ul class="nav">
-                    <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                    <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                    <li><a href="#"><i class="fa fa-list"></i>Skills</a></li>
-                    <li><a href="#"><i class="fa fa-briefcase"></i>Projects</a></li>
-                    <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                    <li><a href="#homeSection" class="active"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#aboutSection"><i class="fa fa-user"></i>About</a></li>
+                    <li><a href="#skillsSection"><i class="fa fa-list"></i>Skills</a></li>
+                    <li><a href="#projectsSection"><i class="fa fa-briefcase"></i>Projects</a></li>
+                    <li><a href="#contactSection"><i class="fa fa-comments"></i>Contact</a></li>
                </ul>
             </div>
         <!-- Aside bar ends -->
         <!-- main content starts -->
             <div class="main-content">
                 <!-- home section starts-->
-                <section class="home section">
+                <section id="homeSection" class="home section">
                     <div class="container">
                         <div class="row">
                             <div class="home-info padd-15">
@@ -55,7 +55,7 @@
                 </section>
                 <!-- home section ends-->
                 <!-- About Section starts-->
-                <section class="about section">
+                <section id="aboutSection" class="about section">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -189,7 +189,7 @@
                 </section>
                 <!-- About section ends-->
                 <!-- Services Section starts-->
-                <section class="service section">
+                <section id="skillsSection" class="service section">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -290,7 +290,7 @@
                 </section>
                 <!-- Services section ends -->
                 <!-- Portfolio section starts-->
-                <section class="portfolio section">
+                <section id="projectsSection" class="portfolio section">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -310,8 +310,8 @@
                                         </a></small>
                                     </h2>
                                     <p> 
-                                        <h3><b>Tech Stack:</b>Opencv,Python,Numpy,Kociemba</h3>
                                         <ul>
+                                            <li><h3><b>Tech Stack:</b>Opencv,Python,Numpy,Kociemba</h3></li>
                                             <li>It provides the optimized way for solving 3x3 rubik’s cube.</li>
                                             <li>And 2D GUI will guide the user for solving the rubiks cube in efficient way.</li>
                                             <li> We can solve the rubik’s cube for generating some special patterns on
@@ -349,7 +349,7 @@
                 </section>
                 <!-- Portfolio section ends-->
                 <!-- Contact section starts-->
-                <section class="contact section">
+                <section id="contactSection" class="contact section">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -393,37 +393,39 @@
                         <!-- contact form -->
                         <div class="row">
                             <div class="contact-form padd-15">
-                                <div class="row">
-                                    <div class="form-item col-6 padd-15">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="name">
+                                <form action="mailto:suchirpandula@gmail.com" class="form-inline" enctype="text/plain"  method="post">
+                                    <div class="row">
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="name">
+                                            </div>
+                                        </div>
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control form-subs-email" placeholder="Email">
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="form-item col-6 padd-15">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email">
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Subject">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Subject">
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <div class="form-group">
-                                            <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <button type="submit" class="btn">Send Message</button>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <button type="submit" class="btn">Send Message</button>
-                                    </div>
-                                </div>
+                                </form>
                             </div>
                         </div>                    
                     </div>

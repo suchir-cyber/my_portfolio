@@ -12,6 +12,17 @@
     <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
       </svg> -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+       (function(){
+        emailjs.init({
+        publicKey: "Z0DPrAQWMz4yOgVtc",
+        });
+       })();
+    </script>
+
 </head>
 <body>
 
@@ -118,6 +129,11 @@
                                                             </h3>
                                                             <h4 class="timeline-title">Motilal Nehru National Institute of Technology.</h4>
                                                             <p class="timeline-text">B.Tech - Computer Science and Engineering</p>
+                                                            <p>Currently pursuing a Bachelor's degree in
+                                                                Computer Science and Engineering at Motilal Nehru National
+                                                                Institute of Technology (MNNIT). Exploring various aspects of
+                                                                computer science, including algorithms, programming languages,
+                                                                and software development.</p>
                                                     </div>
                                                     <div class="timeline-item">
                                                         <div class="circle-dot"></div>
@@ -126,6 +142,10 @@
                                                             </h3>
                                                             <h4 class="timeline-title">Sri Chaitanya Junior College</h4>
                                                             <p class="timeline-text">Senior Secondary(Intermediate)</p>
+                                                            <p>Completed high school education with a focus on Mathematics, 
+                                                                Physics,and Computer Science at Sri Chaitanya junior college. 
+                                                                Developed a strong foundation in
+                                                                core subjects and gained more information in  MPC subjects and also being good in sports.</p>
                                                     </div>
                                                     <div class="timeline-item">
                                                         <div class="circle-dot"></div>
@@ -134,6 +154,11 @@
                                                             </h3>
                                                             <h4 class="timeline-title">Sri Chaitanya Techno School</h4>
                                                             <p class="timeline-text">Secondary School</p>
+                                                            <p>Began my JEE journey at Sri Chaitanya Techno School from my 
+                                                                8th class, where I fostered a love for
+                                                                learning and discovery. Developed fundamental skills in various
+                                                                subjects and cultivated a curious mindset towards knowledge
+                                                                acquisition.</p>
                                                     </div>
                                                     <div class="timeline-item">
                                                         <div class="circle-dot"></div>
@@ -142,6 +167,11 @@
                                                             </h3>
                                                             <h4 class="timeline-title">Kotak Salesian School</h4>
                                                             <p class="timeline-text">Primary School</p>
+                                                            <p>It was my dream life where I have enjoyed a lot by having
+                                                                some good memories and friends,where my life shuttered under
+                                                                a good environment. And this school teached me a lot in both 
+                                                                academics and moral values. 
+                                                            </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -393,41 +423,40 @@
                         <!-- contact form -->
                         <div class="row">
                             <div class="contact-form padd-15">
-                                <form action="mailto:suchirpandula@gmail.com" class="form-inline" enctype="text/plain"  method="post">
-                                    <div class="row">
-                                        <div class="form-item col-6 padd-15">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="name">
-                                            </div>
-                                        </div>
-                                        <div class="form-item col-6 padd-15">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control form-subs-email" placeholder="Email">
-                                            </div>
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Name" id="name">
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="form-item col-12 padd-15">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Subject">
-                                            </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email" id="email">
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="form-item col-12 padd-15">
-                                            <div class="form-group">
-                                                <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
-                                            </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Subject" id="subject">
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="form-item col-12 padd-15">
-                                            <button type="submit" class="btn">Send Message</button>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="message" placeholder="Message"></textarea>
                                         </div>
                                     </div>
-                                </form>
+                                </div>
+                                <h5>NOTE:- DON'T SEND ANY SPAM MESSGAES!!</h5>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <button type="submit" class="btn" onclick="sendMail()">Send Message</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>                    
+                        </div>                   
                     </div>
                 </section>
                 <!-- Contact section ends -->

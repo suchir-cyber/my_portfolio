@@ -135,6 +135,7 @@ ul
 .btn:hover
 {
     transform: scale(1.05);
+    cursor:pointer;
 }
 
 .shadow-dark

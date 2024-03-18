@@ -193,6 +193,10 @@
     margin-bottom: 30px;
 }
 
+.contact .contact-form .form-item .btn{
+    margin-top: 30px;
+}
+
 .contact .contact-form .form-item .form-control
 {
     width: 100%;
